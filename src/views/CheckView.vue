@@ -1,6 +1,6 @@
 
 <script setup>
-import checkingVue from '../components/checking.vue';
+import checkingVue from '../components/Checking.vue';
 const country = [
     {title: 'Bangladesh', complete: true},
     {title: 'Belarus', complete: true},
