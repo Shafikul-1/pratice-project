@@ -1,5 +1,5 @@
 <script setup>
-import card from '../components/card.vue';
+import card from '../components/Card.vue';
 const dailyWork1 = [
     {
         day: 'Vacations',
