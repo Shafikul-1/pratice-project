@@ -4,6 +4,7 @@ const About = ()=> import ('../views/AboutView.vue')
 const Note = ()=> import ('../components/Note.vue')
 const Check = ()=> import ('../views/CheckView.vue')
 const Card = ()=> import ('../views/CardView.vue')
+const CardComponent = ()=> import ('../views/CardComponent.vue')
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -34,6 +35,11 @@ const router = createRouter({
       path: '/card',
       name: 'card',
       component: Card
+    },
+    {
+      path: '/card-component',
+      name: 'card-component',
+      component: CardComponent
     }
   ]
 })
