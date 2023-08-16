@@ -15,6 +15,7 @@ const bold = 'font-bold'
         <RouterLink class="font-bold mx-3" to="/check">CheckBox</RouterLink>
         <RouterLink class="font-bold mx-3" to="/card">Card</RouterLink>
         <RouterLink class="font-bold mx-3" to="/card-component">Card Component</RouterLink>
+        <RouterLink class="font-bold mx-3" to="/post">Post</RouterLink>
       </nav>
     </div>
   </header>
