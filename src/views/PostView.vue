@@ -1,5 +1,5 @@
 <script setup>
-
+import Post from '../components/Post.vue';
 const posts=[
   {
     title: "Deadbeef Decrementation",

@@ -5,10 +5,8 @@ const bold = 'font-bold'
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
     <div class="wrapper">
-      <nav>
+      <nav class="my-3">
         <RouterLink class="font-bold mx-3" to="/">Home</RouterLink>
         <RouterLink class="font-bold mx-3" to="/about">About</RouterLink>
         <RouterLink class="font-bold mx-3" to="/note">Note</RouterLink>
@@ -16,6 +14,7 @@ const bold = 'font-bold'
         <RouterLink class="font-bold mx-3" to="/card">Card</RouterLink>
         <RouterLink class="font-bold mx-3" to="/card-component">Card Component</RouterLink>
         <RouterLink class="font-bold mx-3" to="/post">Post</RouterLink>
+        <RouterLink class="font-bold mx-3" to="/price">Price</RouterLink>
       </nav>
     </div>
   </header>

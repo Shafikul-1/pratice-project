@@ -6,6 +6,8 @@ const Check = ()=> import ('../views/CheckView.vue')
 const Card = ()=> import ('../views/CardView.vue')
 const CardComponent = ()=> import ('../views/CardComponent.vue')
 const Post = ()=> import ('../views/PostView.vue')
+const Price = ()=> import ('../views/PricingView.vue')
+const NotFound = ()=> import ('../views/NotFound.vue')
 const router = createRouter({
   history: createWebHistory(),
   routes: [
@@ -46,7 +48,15 @@ const router = createRouter({
       path: '/post',
       name: 'post',
       component: Post
-    }
+    },
+    {
+      path: '/price',
+      name: 'price',
+      component: Price
+    },
+    { path: '/:pathMatch(.*)*',
+     name: 'NotFound', 
+     component: NotFound }
   ]
 })
 
