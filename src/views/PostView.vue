@@ -4,17 +4,26 @@ const posts=[
   {
     title: "Deadbeef Decrementation",
     excerpt: "How to decrement from a magic debug value to zero.",
-    tags: ["spirituality"],
+    tags: [{
+        tag: "spirituality",
+        color: 'red'
+    }],
   },
   {
     title: "Interior Crocodile Alligator, I Drive a Chevrolet Movie Theater",
     excerpt: "♫ Interior Crocodile Alligator, I Drive a Chevrolet Movie Theater ♫",
-    tags: ["cats"],
+    tags: [{
+        tag: "cats",
+        color: ''
+    }],
   },
   {
     title: "Why My Practice of Thelema Makes Me Better at World of Warcraft",
     excerpt: "\"Do what thou wilt\" shall be the whole of the Law.",
-    tags: ["enchiladas"],
+    tags: [{
+        tag:"enchiladas",
+        color: ''
+    }],
   },
   {
     title:'Shrek Predicted the COVID-19 Pandemic',
@@ -39,7 +48,7 @@ const posts=[
 
 <template>
     
-<section class="mx-auto ">
+<section class="mx-auto bg-black text-white">
     <header>
       <nav class="container mx-auto max-w-3xl px-8 pt-2 flex flex-wrap justify-between">
         <div>
@@ -65,14 +74,14 @@ const posts=[
       <div>
 
 
-        <div class="mb-8 border-dotted border-b pb-8 bg-indigo-200 p-4 rounded-md shadow-xl shadow-indigo-400">
+        <div class="mb-8 border-dotted border-b pb-8 hover:bg-indigo-900 p-4 rounded-md shadow-md transition-all hover:shadow-indigo-400 cursor-pointer">
           <h2>
             <a class="block text-2xl font-bold capitalize hover:underline hover:text-blue-400" href="/11r/post/deadbeef-decrementation/">Deadbeef Decrementation</a>
           </h2>
 
           <p class="excerpt my-3 mb-4">How to decrement from a magic debug value to zero.</p>
 
-          <a class="tag spirituality font-bold capitalize border-2 py-2 px-5 rounded-md bg-indigo-500 text-white hover:bg-transparent hover:text-black transition-all hover:border-indigo-500 hover:border-2 " href="/11r/tag/spirituality">spirituality</a>
+          <a class="tag spirituality font-bold capitalize border-2 py-2 px-5 rounded-md bg-indigo-500 text-black hover:bg-transparent hover:text-white transition-all hover:border-indigo-500 hover:border-2 " href="/11r/tag/spirituality">spirituality</a>
 
           <code class="block md:inline md:float-right md:pt-4 pt-2 created-date hover:underline cursor-pointer" datetime="Sat Oct 08 2016 19:00:00 GMT-0500 (Central Daylight Time)">
             October 9, 2016
